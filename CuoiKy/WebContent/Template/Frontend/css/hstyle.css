@@ -1,0 +1,222 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+/*------------Header-------------------*/
+body {
+    margin: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1;
+    overflow: hidden;
+    overflow-y: auto;
+    background-image: url(image/background.png);
+    
+}
+.nav-item {
+	color: yellow;
+}
+.navbar{
+	background-color: #2C2A2A;
+}
+#bor{
+    border-radius: 20px;
+   /*  border-color: red;
+   border-style: double;
+   border-width: 1.5px; */
+   background-color: #E00D7A;
+    margin-left: px;
+}
+
+#lik{
+	color: white;
+	font-size: 16px;
+
+	padding: 7px 20px 7px 20px;
+	background-color: transparent;
+	font-family: "Roboto", sans-serif;
+    border-right-width: 1px;
+    border-right-style: ridge;
+    border-color: gray;
+
+
+	-webkit-transition: width 0.5s;
+      transition: 0.5s ease;
+      transition-timing-function: ease; 
+}
+#lik:hover{
+	color: ;
+	/*transform: rotateY(360deg);*/
+    border-right-color: gray;
+    background-color:#F66E14;
+}
+input.form-control.mr-sm-2 {
+    border-radius: 20px;
+    width: 266px;
+}
+button.btn.btn-outline-success.my-2.my-sm-0 {
+    border-radius: 20px;
+}
+
+
+ol.carousel-indicators {
+    bottom: -7px;
+}
+.carousel-inner {
+    border-radius: 20px;
+}
+
+ol.carousel-indicators>li {
+	height: 5px;
+	border-radius: 20px;
+}
+
+h4.font_datve{
+	font-family: 'Anton', sans-serif;
+    font-size: 48px;
+    color: #DF1FE6;
+}
+.phim{
+	height: 49px;
+	width: 300px;
+	border-radius: 20px;
+	border-top-left-radius: 0px;
+	background-color: #e00d7a;	
+
+}
+
+
+
+button, input, optgroup, select, textarea {
+    font-family: 'Pattaya', sans-serif;
+    margin: 0;
+    /* font-family: inherit; */
+    font-size: inherit;
+    line-height: inherit;
+}
+.colgiave{
+    text-align: center;
+    height: 30px;
+}
+.card.therap3{
+    border: 1px solid rgb(52, 17, 48);
+    background-color: #c28abc;
+    margin-left: 75px;
+}
+.card.therap1{
+    border: 1px solid rgb(52, 17, 48);
+    background-color: #c28abc;
+    margin-left: 75px;
+}
+.zoom {
+    
+    transition: transform .6s;
+
+
+}
+.zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.2); 
+}
+.vienphim{
+    border-radius: 20px;
+    background-color: white;
+
+}
+    
+/*--------------Footer---------------*/
+.footer{
+	border-top-width: ;
+	border-top-color:;
+	background-color: #1a1a1a;
+	border-top-style: ;
+	float: left;
+	width: 100%;
+    max-width: 1400px;
+}
+.rule{
+	text-align: center;
+}
+.list-inline-item{
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: white;
+	font-size: 18px;
+	font-family: ;
+
+}
+.list-inline-item:hover{
+	color: #EADE25
+}
+.card-info{
+	color:#F1E8E8;
+	margin-left: 100px;
+	padding-bottom: 10px;
+	width: 600px;
+	float: left;
+	margin-top: 20px;
+ 
+}
+.card-contact{
+	color: #F1E8E8;
+	float: right;
+	margin-top: 20px;
+}
+.cnt-text{
+	color: #F1E8E8;
+	font-size: 18px;
+	margin-bottom: 5px;
+	margin-right: 200px;
+}
+.cnt-text:hover{
+	color: #1AE0D0
+}
+
+
+.test{
+    background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SliedeShow
+.carousel-indicators li{
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 
+  background-color:;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/*Tabs Carousel*/
