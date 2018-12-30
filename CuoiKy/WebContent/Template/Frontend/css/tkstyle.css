@@ -1,0 +1,683 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*------------Header-------------------*/
+body{
+	background-attachment: fixed;
+}
+.nav-item {
+	color: yellow;
+}
+.container{
+	width: 1200px;
+	max-width: 1200px;
+}
+.navbar{
+	background-color: #2C2A2A;
+}
+#bor{
+    border-radius: 20px;
+   /*  border-color: red;
+   border-style: double;
+   border-width: 1.5px; */
+   background-color: #E00D7A;
+    margin-left: px;
+}
+
+#lik{
+	color: white;
+	font-size: 16px;
+
+	padding: 7px 20px 7px 20px;
+	background-color: transparent;
+	font-family: "Roboto", sans-serif;
+    border-right-width: 2px;
+    border-right-style: ridge;
+    border-color: gray;
+
+
+	-webkit-transition: width 0.5s;
+      transition: 0.5s ease;
+      transition-timing-function: ease; 
+}
+#lik:hover{
+	color: ;
+	/*transform: rotateY(360deg);*/
+    border-right-color: gray;
+    background-color:#F66E14;
+}
+input.form-control.mr-sm-2 {
+    border-radius: 20px;
+    width: 266px;
+}
+button.btn.btn-outline-success.my-2.my-sm-0 {
+    border-radius: 20px;
+}
+/*--------------Footer---------------*/
+.footer{
+	border-top-width: ;
+	border-top-color:;
+	background-color: #1a1a1a;
+	border-top-style: ;
+	float: left;
+	width: 100%;
+    max-width: 1400px;
+}
+.rule{
+	text-align: center;
+}
+.list-inline-item{
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: white;
+	font-size: 18px;
+	font-family: ;
+
+}
+.list-inline-item:hover{
+	color: #EADE25
+}
+.card-info{
+	color:#F1E8E8;
+	margin-left: 100px;
+	padding-bottom: 10px;
+	width: 600px;
+	float: left;
+	margin-top: 20px;
+ 
+}
+.card-contact{
+	color: #F1E8E8;
+	float: right;
+	margin-top: 20px;
+}
+.cnt-text{
+	color: #F1E8E8;
+	font-size: 18px;
+	margin-bottom: 5px;
+	margin-right: 200px;
+}
+.cnt-text:hover{
+	color: #1AE0D0
+}
+
+
+.test{
+    background-color: green;
+}
+.noidung{
+	margin-top: 56px;
+}
+
+/*--------------Thanh vien--------------*/
+.thanhvien{
+	margin-top: 30px;
+	padding-top: 30px;
+}
+#pills-tabContent{
+	color: #EAE435;
+}
+#pills-hd{
+	/*color: #EAE435;*/
+	line-height: 2;
+	font-size: 16px;
+}
+#pills-hd ul{
+	margin-top: px;
+	margin-bottom: 5px;
+}
+.sphd{
+	color:#20920A ;
+	font-weight: bold;
+	font-size: 26px;
+	margin-bottom: 20px;
+}
+#pills-ql{
+	/*color: #EAE435;*/
+	line-height: 2;
+	font-size: 16px;
+}
+.spql{
+	/*color: #EAE435;*/
+	float: left;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+.tbsn{
+	margin:0 auto;
+	/*color: #EAE435;*/
+	text-align: center;
+	vertical-align: center;
+	border-style: ridge;
+	margin-bottom: 5px;
+}
+.tbsn img{
+	width: ;
+	height: ;
+}
+.tbsn td{
+	border-style: solid;
+	padding: 10px 0 0 10px;
+	font-size: 20px;
+	font-weight: bold;
+	border-width: 1px;
+}
+
+/*---------------Thông tin tài khoản-----------------*/
+.info-left{
+	width: 600px;
+	color: #EAE435;
+}
+.info-left .card{
+	width: 200px;
+	background-color: transparent;
+	border: none;
+	float: left;
+}
+.info-left .card-img-top{
+	width: 200px;
+	height: 260px;
+	border-radius: 10px;
+}
+.info-left .modal-title{
+	text-align: center;
+}
+.info-left .btn-success{
+	position: absolute;
+	margin: auto;
+	left:0;
+	right: 0;
+	top: 40%;
+	opacity: 0;
+}
+.info-left .btn-success:hover{
+	opacity: 1;
+}
+.the{
+	margin-left: px;
+	text-align: center;
+	width: 400px;
+	float:left;
+}
+.the .thuong{
+	text-align: left;
+	line-height: 2;
+	margin-left: 80px;
+}
+.thuong span{
+	font-weight: bold;
+	color: #E11A3B;
+}
+.info-right{
+	float: right;
+	width: 600px;
+	color: #EAE435;
+	margin-bottom: 20px;
+}
+.info-right form{
+	border: ridge;
+	border-radius: 10px;
+	background-color:#393838;
+	border-color: #393838;
+	border-width: 1px;
+	width: 550px;
+	margin:0 auto;
+}
+.info-right table{
+	margin: 10px auto;
+
+}
+.info-right tr{
+	height: 60px;
+	padding: 10px 0 10px 0;
+}
+.info-right input{
+	width: 352px;
+	height: 36px;
+	background-color: ;
+}
+.info-right .change{
+	padding:5px 5px 5px 5px;
+	margin-top: -6px;
+
+}
+.info-right option{
+	height: 30px;
+}
+.info-right .btn-info{
+	margin-left: 192px;
+	margin-bottom: 10px;
+}
+.deal{
+	height: 300px;
+	text-align: center;
+}
+.deal table{
+	margin: 20px auto;
+
+}
+.deal td{
+	padding: 10px 0px 10px 0px;
+	width: 146px;
+}
+
+/*----------------------Poster-----------------------*/
+.poster{
+	margin-top: 90px;
+	height: px;
+	color: white;
+	text-align: justify;
+}
+.poster img{
+	width: 250px;
+	height: 400px;
+	float: left;
+	margin-right: 40px;
+}
+.poster h4{
+	color: #94BE15;
+}
+.poster p{
+	font-weight: bold;
+}
+.poster span{
+	font-weight: normal;
+	color: #7B7777;
+}
+.mvplace{
+	width: 210px;
+	height: 160px;
+	float: left;
+	text-align: ;
+	background-color: #8E8686;
+	color: white;
+	vertical-align: middle;
+	justify-content: center;
+}
+.mvplace h5{
+	color: black;
+}
+.just{
+	text-align: justify;
+}
+
+/*--------------------Lịch chiếu-------------------*/
+.lich .nav-pills{
+	background-color: green;
+}
+.lich .nav{
+	background-color: green;
+	height: 100px;
+}
+.lich .act{
+	background-color: green;
+}
+.tabcn{
+	margin-top: 20px;
+}
+.tablks{
+	padding: 10px 20px 10px 20px;
+	text-align: center;
+	position: relative;
+	border:none;
+	margin-right: 20px;
+}
+.tablks:hover{
+	cursor: pointer;
+	background-color: #8B7F7F;
+}
+.tablks:hover .overlay{
+	opacity: 1;
+}
+.overlay{
+	position: absolute; 
+   	bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:1;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+/*-------------Thời gian chiếu---------*/
+.calendar{
+	height: 160px;
+	margin-top: 20px;
+}
+.calendar img{
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+.calendar button{
+	background-color: transparent;
+}
+.bg{
+	position: absolute;
+	height: 54px;
+	width: 73px;
+	margin: 32px 0px 0px 14px;
+}
+.calendar button:hover .bg{
+	background-color: orange;
+}
+.acti .bg{
+	background-color: orange;
+}
+.ngay{
+	position: absolute; 
+	margin: 32px 0 0 22px; 
+	font-size: 38px; 
+	font-weight: bold; 
+	color: black;
+}
+.thang{
+	position: absolute; 
+	margin: 30px 0 0 64px; 
+	font-size: 20px;  
+	color: black;
+}
+.circle{
+	border:none;
+	background-color: transparent;
+	width: 100px;
+}
+
+/*-------------Tab Phim----------------*/
+.plphim{
+	height: 240px;
+	margin-bottom: 40px;
+	float:;
+}
+.plphim img{
+	width: 160px;
+	height: 240px;
+	float: left;
+}
+.plphim .lt{
+	margin-left: 20px;
+	color: white;
+	background-color: green;
+	font-weight: bold;
+	text-align: center;
+	width: 40px;
+	margin-bottom: 15px;
+}
+.plphim .age{
+	color: red;
+	border: solid;
+	border-color: red;
+	margin-left: 20px;
+	margin-top: 40px;
+	padding: 4px;
+}
+.plphim .textphim{
+	color: #D3C12B;
+	margin-left: 10px;
+	float: left;
+	font-family: Arial;
+}
+.plphim .textphim .sp{
+	padding: 10px;
+	background-color: #878080;
+	color: white;
+	margin-right: 10px;
+	text-decoration: none;
+	font-weight: bold;
+}
+.plphim .textphim .sp:hover{
+	text-decoration-style: none;
+	background-color: #19A934;
+}
+
+/*-------------------------Ghế---------------------*/
+.chonve{
+	float: left;
+	width: 800px;
+	color: white;
+}
+.chonve table{
+	background-color: #5477E9;
+	text-align: center;
+}
+.chonve table tr{
+	height: 64px;
+
+}
+.chonve table tr td{
+	text-align: center;
+}
+.nbpl{
+	width: 100px;
+}
+#pdl{
+	text-align: left; 
+	padding-left: 10px;
+}
+#pdr{
+	text-align: right; 
+	padding-right: 10px;
+}
+.total{
+	margin-top: 50px;
+	float: right;
+	width: 300px;
+	text-align: center;
+	background-color: #D6CACA;
+	margin-bottom: 20px;
+
+}
+.total img{
+	margin-top: 10px;
+	width: 250px;
+	height: 200px;
+}
+.totaltext{
+	text-align: left;
+	margin-bottom: 10px;
+	margin-left: 25px;
+	width: 250px;
+	line-height: 2;
+}
+.totaltext span{
+}
+.chonghe{
+	float: left;
+	width: 800px;
+	color: black;
+}
+.chonghe table{
+	text-align: center;
+	margin:0 auto;
+}
+.chonghe table td{
+	width: 40px;
+	height: 40px;
+	border-width: 5px;
+	background-color: transparent;
+}
+.chonghe table tr td button{
+	width: 35px;
+	height: 35px;
+	background-color: #C6C4C4;
+	border:none;
+	cursor: pointer;
+}
+.chonghe table tr td button:visited{
+	background-color: red;
+}
+#tenghe{
+	border-color: white; 
+	color: white; 
+	border: solid; 
+	border-width: 2px;
+}
+.manhinh{
+	margin-top:px;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 20px;
+
+}
+.thanhtoan{
+	float: left;
+	width: 800px;
+	color: white;
+
+}
+.thanhtoan table{
+	margin: 0 auto;
+	
+}
+.thanhtoan td{
+	height: 70px;
+}
+.thanhtoan td option{
+	width: 340px;
+	height: 40px;
+}
+.thanhtoan td input{
+	width: 360px;
+	height: 40px;
+}
+
+/*-----------------Trang Admin-------------*/
+.head{
+	width: 100%;
+	height: 50px;
+	background-color: #9994F2;
+	
+}
+#tk{
+	float: right;
+	margin-top: 2px;
+}
+.anh img{
+
+	height: 50px;
+	width: 190px;
+	float: left;
+	margin-right: px;
+	margin-left: 5px;
+}
+.anh{
+	float: left;
+	width: 720px;
+}
+.list-left{
+	background-color: #514D4D;
+	height: 100%;
+
+}
+.muc{
+	color: white;
+	margin-left: 10px;
+	padding: 5px 0 5px 0;
+}
+.muc:hover{
+	color: #E6F22B;
+	text-decoration: none;
+}
+
+#ico{
+	margin-top: 4px;
+	margin-bottom: 4px;
+	margin-left: 10px;
+}
+.clo-2{
+	max-height: 100%;
+	height: 100%;
+}
+.datahome{
+	text-align: center;
+	margin-top: 20px;
+}
+.datahome tr{
+	border-style:ridge;
+	border-width: 1px;
+	border-color: #C7BFBF;
+}
+.datahome tr:hover{
+	background-color: #EEE7E7;
+}
+.datahome tr td{
+	padding: 15px 4px 15px 4px;
+}
+.editphim{
+	margin: 20px 0 0 40px;
+}
+.editphim td{
+	height: 50px;
+}
+.editphim td input{
+	width: 460px;
+}
+
+/*------------------------Góp ý-----------------*/
+.frmgopy{
+	background-color: #A5A5A5;
+	border-radius: 10px;
+	width: 860px;
+	margin: 20px auto;
+	height: 334px;
+	margin-bottom: 20px;
+}
+.tbgopy{
+	margin:0 auto;
+}
+.tbgopy table tr {
+
+}
+.ingopy{
+	width: 240px;
+	height: 40px;
+}
+.gthieu{
+	color: #F2E14D;
+	text-align: center;
+}
+.gthieu p{
+	text-align: justify;
+	line-height: 2;
+	color: #d2b48c;
+	color:#F2E14D;
+}
+.gthieu p span{
+	font-weight: bold;
+	font-size: 20px;
+}
+.tuyendung{
+	border: ridge;
+}
+.tuyendung tr td{
+	border: ridge;
+	margin-bottom: 20px;
+	height: 40px;
+}
+.tuyendung tr{
+	height: 40px;
+}
+
+
+/*SliedeShow
+.carousel-indicators li{
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 
+  background-color:;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/*Tabs Carousel*/

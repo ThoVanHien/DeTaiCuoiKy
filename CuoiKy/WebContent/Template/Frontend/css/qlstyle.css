@@ -1,0 +1,228 @@
+@charset "utf-8";
+.quantri{
+	vertical-align: top;
+}
+.head{
+	width: 100%;
+	height: 50px;
+	background-color: #9994F2;
+	
+}
+#tk{
+	float: right;
+	margin-top: 2px;
+}
+.anh img{
+
+	height: 50px;
+	width: 190px;
+	float: left;
+	margin-right: px;
+	margin-left: 5px;
+}
+.anh{
+	float: left;
+	width: 720px;
+}
+.left{
+	width: 210px; 
+	background-color: #514D4D;
+	vertical-align: top;
+	height: 100%;
+}
+.right{
+	padding: 0 0 0 20px;
+}
+.list-left{
+	background-color: #514D4D;
+	height: 100%;
+
+}
+.muc{
+	color: white;
+	margin-left: px;
+	padding: 5px 0 5px 0;
+}
+.muc:hover{
+	color: #E6F22B;
+	text-decoration: none;
+}
+
+#ico{
+	margin-top: 4px;
+	margin-bottom: 4px;
+	margin-left: 10px;
+}
+.clo-2{
+	max-height: 100%;
+	height: 100%;
+}
+.datahome{
+	text-align: center;
+	margin-top: 20px;
+	max-width:100%;
+	width:100%;
+}
+.datahome tr{
+	border-style:ridge;
+	border-width: 1px;
+	border-color: #C7BFBF;
+}
+.datahome tr:hover{
+	background-color: #EEE7E7;
+}
+.datahome tr td{
+	padding: 15px;
+	width:auto;
+}
+.datahome tr td a{
+	text-decoration: none;
+}
+.editphim{
+	margin: 0px 0 0 40px;
+	color:black;
+	font-size:16px;
+}
+.editphim td{
+	height: 50px;
+}
+.editphim td input{
+	width: 460px;
+}
+.checkboxFour {
+	margin: 0 auto;
+    width: 30px;
+    height: 30px;
+    background: #D4CDCD;
+ 
+    border-radius: 100%;
+    position: relative;
+    -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+}
+.checkboxFour label {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+ 
+    /* -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease; */
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 1;
+ 
+    background: #333;
+ 
+    -webkit-box-shadow:inset 0px 1px 3px rgba(0,0,0,0.5);
+    -moz-box-shadow:inset 0px 1px 3px rgba(0,0,0,0.5);
+    box-shadow:inset 0px 1px 3px rgba(0,0,0,0.5);
+}
+.checkboxFour input[type=checkbox]:checked + label {
+    background: #26ca28;
+}
+.checkboxFour input[type=checkbox]{
+	/*margin-left: 8px;*/
+	margin-top: 10px;
+}
+.tim{
+	height:30px;
+}
+.bn{
+	margin:0 10px 0 10px;
+	border-radius: 20px;
+	border: none;
+	height:30px;
+}
+.txt-jus{
+	text-align: justify;
+}
+.datainfo{
+	width:100%;
+	font-size:16px;
+}
+.datainfo td{
+	height:70px;
+}
+.datainfo input{
+	width:300px;
+	height:32px;
+	background-color: #ebebeb;
+}
+.avatar input{
+	height:250px;
+	width:200px;
+	border-radius: 10px 10px 0 0;
+	
+}
+.avatar-btn{
+	margin-top:-6px;
+	padding:5px;
+	border-radius: 0 0 10px 10px;
+	width:200px;
+}
+.doimk{
+	margin-top:20px;
+}
+.doimk input{
+	width:250px;
+	float:left;
+}
+.doimk span{
+	float:left;
+	font-size:16px;
+}
+/* -----------Upload file-------------- */
+.Choicefile {
+	display: block;
+	background: #0877D8;
+	border: 1px solid #fff;
+	color: #fff;
+	width: 150px;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	padding: 5px 0px;
+
+}
+.Choicefile:hover{
+	color:silver;
+}
+
+#uploadfile, .removeimg {
+	display: none;
+}
+
+#thumbbox {
+	position: relative;
+	width: 150px;
+}
+
+.removeimg {
+	background:
+		url("http://png-3.findicons.com/files/icons/2181/34al_volume_3_2_se/24/001_05.png")
+		repeat scroll 0 0 transparent;
+	height: 24px;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	width: 24px;
+}
+.ckbox{
+	width:13px;
+	margin-left:20px;
+}
+.new{
+	color:white;
+	text-decoration: none;
+}
+.new:hover{
+	color:white;
+	text-decoration: none;
+}
